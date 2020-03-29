@@ -3,3 +3,9 @@ spring:
     mongodb:
       host: localhost
       database: reactiveDB
+
+server:
+  servlet:
+    context-path: /reactive
+
+  port: 9000
