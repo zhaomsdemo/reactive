@@ -9,3 +9,9 @@ server:
     context-path: /reactive
 
   port: 9000
+
+logging:
+  file:
+    path: /var/log
+    name: reactive.log
+  level: info
